@@ -1,0 +1,9 @@
+BUGS NOTED
+- empty box can be shortened to a new url
+- no error checking in box. spaces generate a bad url
+- 
+
+POSSIBLE FEATURES
+- most clicked links
+- your links
+- 
