@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
@@ -8,40 +9,37 @@
 </head>
 
 <body>
-	<div class=header">
+	<div class="header">
 		<div class="main-image">
 			<!--<img src="/_static/002.png" width="128" height="128" alt="002">-->
 		</div>
 		<div class="opener-text">
-		<h1>tg.gy</h1>
-		<p>
-		A Simple Url Shortener	
-		</p>
+			<h1>tg.gy</h1>
+			<p>
+				A Simple Url Shortener	
+			</p>
 		</div>
-		{% if not shortUrl %}
 		<div class="url-form">
 			<form method="post" action="">
 				<input type="text" id="url" name="url" class="url-form-input" placeholder="Original URL Here" />
 				<button type="submit" class="url-form-button">Shorten it</button>
 			</form>
 		</div>
+		{% if not shortUrl %}
+		<div>
+		</div>
 		{% else %}
 		<div>
 			Short version is: <a href="{{shortUrl}}">{{shortUrl}}</a>
 		</div>
-		<div>
-			<br>
-			<a href="Return">tg.gy</a>
-	{% endif %}
+		{% endif %}
+	<div class="main">		
 	</div>
-	<div class="main">
-		
-	</div>
-	<div class="sidebar">
-				
-	</div>
-	<div class="footer">
 
+	<div class="sidebar">				
+	</div>
+
+	<div class="footer">
 	</div>
 	
 </body>
