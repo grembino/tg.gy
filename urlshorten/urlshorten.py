@@ -8,7 +8,7 @@ import base64
 import string, psycopg2
 
 
-host = 'http://tg.gy/'
+host = 'https://tg.gy/'
 
 def checkTable():
     createTable = """
