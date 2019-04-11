@@ -1,2 +1,4 @@
 # tg.gy
-A bare minimum URL shortener. Somewhat abandoned pet project.
+A bare minimum URL shortener.
+
+Runs on ngnix, flask, and postgresql
